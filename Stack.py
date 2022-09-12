@@ -4,7 +4,7 @@ class FullStack(Exception):
     pass
 
 class Stack():
-    def __init__(self, newList=[], startstackLen=10**6) -> None:
+    def __init__(self, newList=[], startstackLen=1000) -> None:
         assert len(newList) <= startstackLen, "stackLen of the stack is greater than the max stackLen specified"
 
         if newList is []:
